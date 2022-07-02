@@ -1,0 +1,557 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  background: url(images/Robo\ Black\ Cover.webp);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  align-items: center;
+  background-color: black;
+  justify-content: space-between;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 1;
+}
+
+nav img {
+  width: 249px;
+  height: 49px;
+  margin-left: 32px;
+}
+
+nav ul {
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: larger;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  display: block;
+}
+
+nav li a:hover::after {
+  background-color: rgb(223, 43, 79);
+  width: 100%;
+  height: 2px;
+  transition: 0.4s;
+  margin: auto;
+}
+
+.home {
+  position: absolute;
+  top: 64%;
+  left: 29vw;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.home h1 {
+  font-size: 400%;
+  padding-bottom: 20px;
+}
+
+.home span {
+  font-size: 140%;
+}
+
+.home a {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: rgb(223, 43, 79);
+  padding: 13px 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.home a:hover {
+  padding-left: 45px;
+  padding-right: 25px;
+  transition: 0.1s;
+}
+
+#content {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+/* ..........................................End of section 1....................................... */
+
+.service {
+  margin-top: 110vh;
+}
+
+.service h1 {
+  color: black;
+  text-align: center;
+  font-size: 300%;
+  padding-bottom: 20px;
+}
+
+.service p {
+  color: rgb(65, 63, 63);
+  text-align: center;
+  font-size: 140%;
+}
+
+.service a {
+  text-decoration: none;
+}
+
+.prodesign {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pro {
+  display: flex;
+  padding: 14px 20px;
+  background-color: rgb(191, 202, 202);
+  align-items: center;
+  padding-right: 10vw;
+  margin-left: 72px;
+  margin-right: 72px;
+  border-radius: 2px;
+}
+
+.pro h1 {
+  font-size: 250%;
+  text-align: initial;
+  padding-left: 30px;
+}
+
+.pro h1:hover {
+  padding-left: 45px;
+  transition: 0.1s;
+}
+
+.pro p {
+  color: black;
+  font-size: 120%;
+  text-align: left;
+  padding-left: 30px;
+}
+
+#topimage {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 60px;
+}
+
+#botmimage {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 100px;
+}
+
+#topimage img {
+  width: 580px;
+  height: auto;
+  height: 350px;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+#topimage img:hover {
+  filter: grayscale();
+  transform: scale(1.02);
+}
+
+#explore {
+  margin-bottom: 35vh;
+}
+
+#explore a {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: rgb(223, 43, 79);
+  padding: 13px 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#explore a:hover {
+  padding-left: 45px;
+  padding-right: 25px;
+  transition: 0.1s;
+}
+
+/* .........................................End of Section 2........................................*/
+
+#sec3 {
+  background-color: black;
+  width: 100vw;
+  height: 240vh;
+}
+
+.work h1 {
+  color: white;
+  text-align: center;
+  font-size: 300%;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+.work p {
+  color: rgb(156, 148, 148);
+  text-align: center;
+  font-size: 140%;
+}
+
+.work a {
+  text-decoration: none;
+}
+
+.work ul {
+  color: rgb(156, 148, 148);
+  font-weight: bold;
+  font-size: 120%;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.work ul li:hover {
+  color: white;
+}
+
+.work ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  display: block;
+}
+
+.work ul li:hover::after {
+  background-color: rgb(223, 43, 79);
+  width: 100%;
+  height: 2px;
+  transition: 0.4s;
+  margin: auto;
+}
+
+.workimg {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.workimg img {
+  width: 380px;
+  height: 320px;
+  padding-right: 30px;
+  transform: scale(1);
+  transition: ease-in-out 0.3s;
+}
+
+.work .workimg img:hover {
+  transform: scale(1.08);
+}
+
+.workdetail a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.workdetail p {
+  color: white;
+  margin-top: 10px;
+  padding: 5px 25px;
+  background-color: rgb(223, 43, 79);
+  border-radius: 2px;
+}
+
+.workdetail p:hover {
+  background-color: rgb(226, 223, 223);
+  color: black;
+  transition: 0.2s;
+}
+
+.workinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.workinfo p {
+  margin-top: 20px;
+  text-align: left;
+  font-size: larger;
+}
+
+.work #craft {
+  font-size: xx-large;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.work #tell {
+  align-items: center;
+}
+
+#connect a {
+  position: absolute;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  text-decoration: none;
+  background-color: rgb(223, 43, 79);
+  margin: 50px;
+  padding: 13px 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#connect a:hover {
+  padding-left: 45px;
+  padding-right: 25px;
+  transition: 0.1s;
+}
+
+/* ....................................End of Section 3.................................. */
+
+.news h1 {
+  color: black;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 80px;
+  padding-bottom: 10px;
+}
+
+.news #coll {
+  margin-bottom: 50px;
+}
+
+.news p {
+  color: rgb(65, 63, 63);
+  text-align: center;
+  font-size: 140%;
+  margin-bottom: 20px;
+}
+
+.news #newsimg a {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.news #newsimg img {
+  width: 370px;
+  height: 290px;
+  transform: scale(1);
+  transition: ease-in-out 0.3s;
+}
+
+.news #newsimg img:hover {
+  transform: scale(1.08);
+}
+
+.news #newsname a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.news #newsname p {
+  font-size: 21px;
+  text-align: left;
+  font-weight: bolder;
+  color: black;
+}
+
+.news #newsname a {
+  text-decoration: none;
+}
+
+.news #newsname p:hover {
+  color: royalblue;
+  transform: scale(1.03);
+  transition: 0.05s;
+}
+
+.news #newsdetail {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.news #newsdetail p {
+  color: rgb(65, 63, 63);
+  text-align: left;
+  font-size: 110%;
+  line-height: 30px;
+}
+
+#visit a {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: rgb(223, 43, 79);
+  padding: 13px 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#visit a:hover {
+  padding-left: 45px;
+  padding-right: 25px;
+  transition: 0.1s;
+}
+
+/* ....................................End of Section 4.................................. */
+
+#sec5 {
+  background-color: rgb(22, 21, 21);
+  width: 100vw;
+  height: 90vh;
+}
+
+.last-up {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25vh;
+  padding-top: 100px;
+}
+
+.last-up .main {
+  padding-bottom: 50px;
+}
+
+.last-up .main a {
+  color: white;
+  padding-bottom: 50px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.last-up .main a:hover {
+  color: royalblue;
+}
+
+.last-up li {
+  padding-bottom: 15px;
+  list-style: none;
+}
+
+.last-up a {
+  text-decoration: none;
+  color: rgb(94, 91, 91);
+}
+
+.last-up a:hover {
+  color: white;
+  transition: ease-in-out 0.01s;
+}
+
+#sec5 hr {
+  border-top: 0.01px solid rgb(32, 32, 32);
+  margin-top: 50px;
+}
+
+.last-btm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-right: 20px;
+}
+
+.last-btm div #one {
+  width: 170px;
+  height: 32px;
+  margin-left: 32px;
+  margin-right: 5px;
+}
+
+.last-btm div #two {
+  width: 100px;
+  height: 42px;
+  margin-left: 10px;
+}
+
+.last-btm .btm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.last-btm .btm p {
+  color: rgb(94, 91, 91);
+}
+
+.last-btm .btm ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.last-btm .btm .para {
+  color: white;
+  margin-left: 4px;
+}
+
+.last-btm .btm #rights {
+  margin-left: 5px;
+}
+
+.last-btm .btm ul a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: rgb(94, 91, 91);
+}
+
+/* ....................................End of Section 5.................................. */
